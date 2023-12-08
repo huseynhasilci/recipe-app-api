@@ -17,3 +17,6 @@ docker-compose down yapacağız ardından
 docker volume rm recipe-app-api_dev-db-data bunu çalıştıracağız
 
 docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate" bunu çalıştırıp migration yaptık 
+
+admin@example.com
+recepie-api123
